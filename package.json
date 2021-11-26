@@ -4,8 +4,11 @@
     "description": "Examen Final Javascript",
     "main": "index.html",
     "scripts": {
-        "test": "npm test"
+        "test": "jest"
     },
     "author": "Baccouche Sami",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.3.1"
+    }
 }

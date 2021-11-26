@@ -14,18 +14,21 @@
     <div class="content">
         <h2 style="text-align: center;">Examen Final </h2>
 
-        <select name="" id="level" style="padding:10px;">
-            <option value="">Facile</option>
-            <option value="">Moyen</option>
-            <option value="">Difficile</option>
-            <option value="">Super Difficile</option>
+        <select name="" id="niveau" style="padding:10px;">
+            <option value="F">Facile</option>
+            <option value="M">Moyen</option>
+            <option value="D">Difficile</option>
+            <option value="S">Super Difficile</option>
         </select>
-        <button style="padding:10px;"> Rejouer </button>
-        <h1><time>00:00</time></h1>
-        <button id="pause">pause</button>
-        <button id="start">start</button>
+        <button style="padding:10px;" onclick="LancerPartie()"> Rejouer </button>
         <button id="show">show</button>
+        <h1 id="chronotime">0:00:00</h1>
+        <h1 style="color: red; display: none;" hide id="perdu">Perdu</h1>
+        <h1 style="color: rgb(21, 255, 0); display: none;" hide id="win">OLaaaaaaaaaaaaaaaaaa Tu as gagné</h1>
 
+        <form name="chronoForm">
+            <input type="button" name="startstop" value="Start" onClick="chronoStart()" />
+        </form>
 
         <div id="jeu" style="padding:10px;"></div>
     </div>
