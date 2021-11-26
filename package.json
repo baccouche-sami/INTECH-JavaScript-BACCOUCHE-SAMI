@@ -1,0 +1,14 @@
+{
+    "name": "baccouchesamiexamen",
+    "version": "1.0.0",
+    "description": "Examen Final Javascript",
+    "main": "index.html",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Baccouche Sami",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.3.1"
+    }
+}
