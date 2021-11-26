@@ -1,0 +1,11 @@
+{
+    "name": "baccouchesamiexamen",
+    "version": "1.0.0",
+    "description": "Examen Final Javascript",
+    "main": "index.html",
+    "scripts": {
+        "test": "npm test"
+    },
+    "author": "Baccouche Sami",
+    "license": "ISC"
+}
