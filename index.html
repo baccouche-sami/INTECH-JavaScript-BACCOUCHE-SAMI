@@ -10,12 +10,46 @@
 
 <body>
 
-    <div id="jeu">
+
+    <div class="content">
+        <h2 style="text-align: center;">Examen Final </h2>
+
+        <select name="" id="level" style="padding:10px;">
+            <option value="">Facile</option>
+            <option value="">Moyen</option>
+            <option value="">Difficile</option>
+            <option value="">Super Difficile</option>
+        </select>
+        <button style="padding:10px;"> Rejouer </button>
+        <h1><time>00:00</time></h1>
+        <button id="pause">pause</button>
+        <button id="start">start</button>
+        <button id="show">show</button>
+
+
+        <div id="jeu" style="padding:10px;"></div>
     </div>
 
     <script src="demineur.js">
     </script>
 
 </body>
+
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: table
+    }
+    
+    .content {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+</style>
 
 </html>
